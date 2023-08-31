@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@300&family=Outfit:wght@400;700&display=swap');
+* {
+    font-family: Outfit;
+}
+body {
+    background-color:hsl(212, 45%, 89%);
+    font-size: 15px;
+}
+img {
+    height: auto;
+    width: 100%;
+    border-radius: 5%;
+    display: block;
+    margin: 0 auto;
+}
+.card {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 5%;
+    padding: 16px;
+    margin: 10% auto;
+    width: 300px;
+    height: auto;
+}
+h1 {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 1.3rem;
+}
+p  {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+   
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
