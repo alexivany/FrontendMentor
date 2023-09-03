@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    color: white;
+    background-color: hsl(217, 54%, 11%);
+}
+
+
+/* Card Container */
+.card-container {
+    max-width: 50%;
+    min-height: 500px;
+    margin: 15vh auto;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 12px;
+    padding: 8px;
+}
+
+.card {
+    max-width: 90%;
+    margin: 3vh auto;
+}
+
+/* Hero Image */
+.nft {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+}
+
+/* Image Overlay */
+.hover-container {
+    position: relative;
+}
+.img-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 95%;
+    width: 90%;
+    margin: 2vh auto;
+    border-radius: 12px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: hsla(178, 100%, 50%, 0.5);
+}
+.view-icon {
+    color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.hover-container:hover .img-overlay {
+   opacity: 1;
+    
+}
+
+/* Card Info */
+h1 {
+    font-size: 18px;
+    transition: 200ms;
+    cursor: pointer;
+}
+h1:hover {
+    color: hsl(178, 100%, 50%);
+    transition: 200ms ease-in;
+}
+.info {
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+.sub-info{
+    display: flex;
+    justify-content: space-between;
+}
+.price {
+    color: hsl(178, 100%, 50%);
+}
+.time {
+    color: hsl(215, 51%, 70%);
+}
+hr {
+    border: 1px solid hsl(215, 32%, 27%);
+    margin: 16px auto;
+}
+
+/* Creator Credit */
+.creator {
+    display: flex;
+}
+.avatar {
+    max-width: 50px;
+    object-fit: contain;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+.credit {
+    color: hsl(215, 51%, 70%);
+}
+a {
+    color: white;
+    transition: 200ms;
+    cursor: pointer;
+}
+a:hover {
+    color:hsl(178, 100%, 50%);
+    transition: 200ms;
+}
+
+/* Attribution */
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
