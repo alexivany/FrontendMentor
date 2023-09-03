@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    background-image: linear-gradient( hsl(224, 100%, 92%), hsl(225, 100%, 94%)), url("pattern-background-desktop.svg");
+    height: 100vh;
+    width: 100vw;
+}
+
+/* Card Container */
+.card {
+    background-color: white;
+    border-radius: 12px;
+    margin: 0 auto;
+    margin-top: 15vh;
+    max-width: 400px;
+    min-height: 600px;
+}
+.hero {
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 12px 12px 0px 0px;
+}
+.card-info {
+    padding: 16px 8px;
+}
+
+/* Card Text */
+h1 {
+    font-weight: 900;
+    font-size: 26px;
+    text-align: center;
+}
+.info {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 300px;
+    color: hsl(224, 23%, 55%);
+}
+
+/* Plan Object */
+.plan {
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 12px;
+    max-width: 300px;
+    margin: 5% auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 16px;
+    position: relative;
+    }
+h2 {
+    font-size: 16px;
+    font-weight: 700;
+    position: relative;
+    bottom: 10px;
+    left: 17px;
+    
+}
+.price {
+    display: inline-block;
+    position: relative;
+    bottom: -20px;
+    left: -75px;
+}
+.change {
+    cursor: pointer;
+    color:hsl(245, 75%, 52%);
+    text-decoration: underline;
+    font-weight: 700;
+}
+.change:hover {
+    color: hsl(245, 83%, 68%);
+    text-decoration: none;
+}
+/* Buttons */
+.payment {
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-weight: 700;
+    box-shadow: 0px 16px 16px hsl(225, 100%, 94%);
+    margin: 0 auto;
+    display: block;
+    padding: 16px;
+    min-width: 330px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.payment:hover {
+    background-color: hsl(245, 83%, 68%);
+}
+
+.cancel {
+    display: block;
+    margin: 5% auto;
+    min-width: 330px;
+    background-color: transparent;
+    border: none;
+    font-weight: 900;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+
+/* Attribution  */
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
