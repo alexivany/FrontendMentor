@@ -1,5 +1,5 @@
 # Frontend Mentor Challenges
-[https://www.frontendmentor.io/](https://www.frontendmentor.io/profile/alexivany)
+[https://www.frontendmentor.io/](https://www.frontendmentor.io/profile/alexivany)\
 Feedback is appreciated!
 
 [NFT Card Challenge](https://alexivany.github.io/FrontendMentor/NFTCardChallenge/)
