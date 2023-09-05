@@ -1,0 +1,130 @@
+:root {
+  /* Primary */
+  --clr-orange: hsl(31, 77%, 52%);
+  --clr-cyan: hsl(184, 100%, 22%);
+  --clr-dark-cyan: hsl(179, 100%, 13%);
+  /* Neutral */
+  --clr-alpha-white: hsla(0, 0%, 100%, 0.75);
+  --clr-gray: hsl(0, 0%, 95%);
+  --clr-white: white;
+  /* Fonts */
+  --ff-paragraph: Lexend Deca;
+  --ff-title: Big Shoulders Display;
+}
+
+/* Default Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* General */
+body {
+  background-color: var(--clr-gray);
+  color: var(--clr-alpha-white);
+  font-family: var(--ff-paragraph);
+  padding: 10rem;
+}
+
+/* Card */
+.column-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border-radius: .5rem;
+  overflow: hidden;
+}
+
+/* Card Text */
+.vehicle-title {
+  font-family: var(--ff-title);
+  font-size: 2rem;
+  color: var(--clr-white);
+  text-transform: uppercase;
+  margin: 2rem auto;
+}
+.vehicle-description {
+  margin-bottom: 8rem;
+  font-size: .9rem;
+  line-height: 1.25rem;
+}
+
+/* Learn More Buttons */
+.learn-more {
+  position: absolute;
+  bottom: 3.5rem;
+  padding: 1rem 2rem 1rem 2rem;
+  border-radius: 2rem;
+  border: none;
+  font-weight: bold;
+  overflow: hidden;
+}
+
+/* Horizontal Breakpoint */
+@media (max-width: 850px) {
+  body {
+    padding: 3rem;
+  }
+  .column-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+  .vehicle-description {
+    margin-bottom: 6rem;
+  }
+}
+
+/* Sedan */
+.sedan-container {
+  background-color: var(--clr-orange);
+  padding: 3rem;
+  position: relative;
+}
+.sedan-container .learn-more {
+  color: var(--clr-orange);
+}
+.sedan-container .learn-more:hover {
+  background-color: transparent;
+  color: var(--clr-white);
+  border: 2px solid var(--clr-white);
+}
+/* SUV */
+.suv-container {
+  background-color: var(--clr-cyan);
+  padding: 3rem;
+  position: relative;
+}
+.suv-container .learn-more {
+  color: var(--clr-cyan);
+}
+.suv-container .learn-more:hover {
+  background-color: transparent;
+  color: var(--clr-white);
+  border: 2px solid var(--clr-white);
+}
+/* Luxury */
+.luxury-container {
+  background-color: var(--clr-dark-cyan);
+  padding: 3rem;
+  position: relative;
+}
+.luxury-container .learn-more {
+  color: var(--clr-dark-cyan);
+}
+.luxury-container .learn-more:hover {
+  background-color: transparent;
+  color: var(--clr-white);
+  border: 2px solid var(--clr-white);
+}
+
+/* Attribution */
+.attribution { 
+  font-size: 11px; 
+  text-align: center; 
+}
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
