@@ -11,3 +11,9 @@ Feedback is appreciated!
 [QR Challenge](https://alexivany.github.io/FrontendMentor/QRChallenge/)
 
 [Stats Preview Challenge](https://alexivany.github.io/FrontendMentor/StatsPreviewChallenge/)
+
+[3 Column Card Challenge](https://alexivany.github.io/FrontendMentor/3ColumnCardChallenge/)
+
+[Profile Card Challenge](https://alexivany.github.io/FrontendMentor/ProfileCardChallenge/)
+
+[Social Section Challenge](https://alexivany.github.io/FrontendMentor/SocialSectionChallenge/)
