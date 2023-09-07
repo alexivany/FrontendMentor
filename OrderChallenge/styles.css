@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+* {
+    margin: 0;
+}
 
 body {
     font-family: 'Red Hat Display', sans-serif;
@@ -105,6 +108,16 @@ h2 {
     font-size: 14px;
 }
 
+
+@media (max-width:600px) {
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0;
+    }
+    
+}
 
 /* Attribution  */
 .attribution a { 
