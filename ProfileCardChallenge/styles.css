@@ -39,7 +39,10 @@ body {
   display: grid;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
+  background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top -40rem left -25rem, bottom -40rem right -25rem;
 }
 
 .card-container {
@@ -120,24 +123,6 @@ body {
   color: var(--clr-gray);
 }
 
-/* Background Shapes */
-.bg-shapes-top {
-  position: absolute;
-  top: -600px;
-  left: -500px;
-  z-index: -1;
-  user-select: none;
-}
-.bg-shapes-bottom {
-  position: absolute;
-  bottom: -600px;
-  right: -500px;
-  z-index: -2;
-  user-select: none;
-}
-.bg-container {
-  overflow: hidden;
-}
 
 /* Attribution */
 .attribution { 
